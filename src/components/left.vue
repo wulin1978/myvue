@@ -1,11 +1,12 @@
 <template>
 <div class='wrap'>
   <div class='title'>前端笔记</div>
-  <mytree :list='list'></mytree>
+  <div class='tre'></div>
 </div>
 </template>
 <script>
 import Tree from '../base/tree'
+
 export default {
   name: 'left',
   components: {

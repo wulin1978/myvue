@@ -4,7 +4,9 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import listtree from './plugin/listtree/index'
-Vue.use(listtree)
+Vue.use(listtree, {
+  list: require('../static/data.json')
+})
 
 Vue.config.productionTip = false
 
